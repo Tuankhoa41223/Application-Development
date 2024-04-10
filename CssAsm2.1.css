@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.schedule {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.schedule th {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+/* Tùy chỉnh thêm */
+.schedule th:nth-child(3),
+.schedule td:nth-child(3) {
+  width: 20%; /* Điều chỉnh chiều rộng cột "DETAIL" */
+}
+
+.schedule th:nth-child(4),
+.schedule td:nth-child(4) {
+  width: 10%; /* Điều chỉnh chiều rộng cột "STUDENT" */
+}
+
+.schedule th:nth-child(5),
+.schedule td:nth-child(5) {
+  width: 10%; /* Điều chỉnh chiều rộng cột "PLAN" */
+}
+h1{
+    text-align: center;
+}
